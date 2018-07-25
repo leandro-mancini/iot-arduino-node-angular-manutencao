@@ -1,0 +1,131 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.dados-os{
+  label{
+    display: block;
+    font-size: 16px;
+    margin: 0 0 6px 0;
+    color: #1db4e9;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  span{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+.funcionarios{
+  h6{
+    color: #1db4e9 !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+  li{
+    display: flex;
+    margin: 0 0 15px 0;
+  }
+
+  span{
+    color: #fff;
+  }
+
+  svg{
+    margin: 0 5px 0 0;
+    height: 32px;
+    width: 32px;
+    color: #1db4e9 !important;
+  }
+}
+
+
+.valeta{
+  width: 380px;
+  height: 500px;
+  background: #3d434a;
+  border-radius: 10px;
+  padding: 18px 0 12px 0;
+  margin: 50px 0;
+
+  .valeta-number{
+    display: block;
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .valeta-bus{
+    border: 2px dotted #fff;
+    margin: 50px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+
+    svg{
+      color: #fff;
+      padding: 40px;
+    }
+
+    .veiculo-status{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: block;
+    }
+
+    &.veiculo-alocado{
+      box-shadow: 0 0 0 8px rgba(253, 211, 93, 0.01), 0 0 0 4px rgba(253, 211, 93, 0.08);
+      background: #fdd35d;
+      background: linear-gradient(135deg, #fdd35d 0%, #f28702 100%);
+    }
+
+    &.veiculo-atrasado{
+      box-shadow: 0 0 0 8px rgba(244, 100, 100, 0.01), 0 0 0 4px rgba(244, 100, 100, 0.08);
+      background: #f46464;
+      background: linear-gradient(135deg, #f46464 0%, #d65757 100%);
+    }
+  }
+
+  .veiculo-status{
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    display: block;
+    padding: 5px 0 0 0;
+  }
+}
+
+
+.mat-button{
+  border: 3px solid #1db4e9 !important;
+  color: #1db4e9 !important;
+  width: 124px;
+  height: 124px;
+  border-radius: 100px;
+  padding: 40px;
+  position: relative;
+  margin: 0 10px;
+
+  .text-button{
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 14px;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    width: 100%;
+  }
+}

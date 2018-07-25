@@ -1,0 +1,29 @@
+.container-fluid{
+  padding: 0;
+}
+
+::ng-deep{
+  .mat-tab-group{
+    .mat-tab-header{
+      border: none;
+      margin: 0 auto;
+
+      .mat-tab-label{
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        opacity: 1;
+        height: 70px;
+      }
+
+      .mat-ink-bar{
+        background: #1db4e9;
+      }
+    }
+
+    .mat-tab-body-wrapper{
+      margin: -2px 0 0 0;
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+}

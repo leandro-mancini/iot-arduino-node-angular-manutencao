@@ -1,0 +1,117 @@
+html,
+body {
+  background: #2e3740 !important;
+  background-size: cover;
+}
+
+body {
+  font-family: $font-OpenSans;
+  margin: 0;
+  color: $plt-graffiti-grey;
+}
+
+button,
+a{
+  outline: none !important;
+
+  &:hover,
+  &:focus{
+      @include box-shadow(none);
+  }
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+  font-family: $font-OpenSans;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+pre{
+  color: $plt-graffiti-grey;
+}
+
+code{
+  padding: 0.2em 0.4em;
+  margin: 0;
+  background-color: $plt-white-ice;
+  border-radius: $bhvr-bvl-young;
+  color: inherit;
+  font-size: inherit;
+  font-family: $font-OpenSans;
+}
+
+.gs-title-1{
+  color: $plt-graffiti-grey;
+  @include font-opera;
+  @include font-bold;
+}
+
+.gs-title-2{
+  color: $plt-graffiti-grey;
+  @include font-tenor;
+  @include font-bold;
+}
+
+.gs-title-3{
+  color: $plt-graffiti-grey;
+  @include font-emphasys;
+  @include font-bold;
+}
+
+.gs-title-4{
+  color: $plt-graffiti-grey;
+  @include font-see-with-me;
+  @include font-bold;
+}
+
+.gs-title-5{
+  color: $plt-graffiti-grey;
+  @include font-rytm;
+  @include font-bold;
+}
+
+p{
+  @include font-regular;
+  color: $plt-graffiti-grey;
+  @include font-harmony;
+}
+
+.highlight{
+  pre{
+    padding: 16px;
+    background-color: $plt-white-ice;
+
+    code{
+      padding: 0;
+    }
+  }
+}
+
+// .box{
+//   @include bhvr-stick;
+//   padding: 25px;
+//   display: inline-block;
+
+//   p{
+//     @include font-harmony;
+//   }
+
+//   .gs-intro-content{
+//     border-bottom: 1px solid $plt-plastic-grey;
+//     margin: 0 0 20px 0;
+
+//     p{
+//       @include font-see-with-me;
+//     }
+//   }
+// }

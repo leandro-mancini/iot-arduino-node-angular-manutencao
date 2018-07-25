@@ -1,0 +1,52 @@
+.container{
+  padding: 40px 0;
+
+  height: calc(100vh - 70px);
+
+  .row{
+    height: 100%;
+  }
+
+  h6{
+    color: #1db4e9 !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.table-container{
+  border-radius: 6px;
+  background: #404950;
+  width: 100%;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+
+  table{
+    width: 100%;
+
+    th,
+    td{
+      border: 1px solid #353e47;
+      font-family: 'Nunito', sans-serif;
+      text-align: center;
+      font-size: 14px;
+      padding: 7px;
+      color: #fff;
+    }
+
+    td{
+      &.disponivel{
+        color: #e6da78;
+      }
+    }
+
+    .ausente{
+      td{
+        color: #eb715a !important;
+      }
+    }
+  }
+}

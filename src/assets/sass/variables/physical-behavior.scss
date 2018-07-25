@@ -1,0 +1,80 @@
+//Behavior - bevel
+$bhvr-bvl-young: 6px;
+$bhvr-bvl-stoned: 8px;
+$bhvr-bvl-full: 40px;
+
+// Behavior - body lighting
+@mixin bhvr-shape{
+  border: 1px solid $plt-white-platinum;
+  background-color: $plt-full-light;
+  border-radius: $bhvr-bvl-stoned;
+}
+
+@mixin bhvr-sheet{
+  border: 1px solid $plt-white-platinum;
+  background-color: $plt-white-platinum;
+  border-radius: $bhvr-bvl-stoned;
+}
+
+@mixin bhvr-groove{
+  border: 2px solid $plt-blue-lamp;
+  background-color: $plt-white-platinum;
+  border-radius: $bhvr-bvl-stoned;
+}
+
+@mixin bhvr-stick{
+  border: 1px solid $plt-white-platinum;
+  background-color: $plt-full-light;
+  border-radius: $bhvr-bvl-stoned;
+  box-shadow: 0 8px 16px 0 rgba($plt-plastic-grey, 0.24);
+}
+
+@mixin bhvr-stick-charm{
+  border: 1px solid $plt-white-platinum;
+  background-color: $plt-full-light;
+  border-radius: $bhvr-bvl-stoned;
+  box-shadow: 0 16px 48px 0 rgba($plt-plastic-grey, 0.24);
+}
+
+@mixin bhvr-block{
+  border: 1px solid $plt-full-light;
+  background-color: $plt-full-light;
+  border-radius: $bhvr-bvl-stoned;
+  box-shadow: 0 16px 48px 0 rgba($plt-plastic-grey, 0.24);
+}
+
+.bhvr-bvl-young{
+  border-radius: $bhvr-bvl-young;
+}
+
+.bhvr-bvl-stoned{
+  border-radius: $bhvr-bvl-stoned;
+}
+
+.bhvr-bvl-full{
+  border-radius: $bhvr-bvl-full;
+}
+
+.bhvr-shape{
+  @include bhvr-shape;
+}
+
+.bhvr-sheet{
+  @include bhvr-sheet;
+}
+
+.bhvr-groove{
+  @include bhvr-groove;
+}
+
+.bhvr-stick{
+  @include bhvr-stick;
+}
+
+.bhvr-stick-charm{
+  @include bhvr-stick-charm;
+}
+
+.bhvr-block{
+  @include bhvr-block;
+}

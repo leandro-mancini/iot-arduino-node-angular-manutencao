@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+$font-OpenSans: 'Open Sans';
+$font-OpenSans-semi-bold: 600;
+$font-OpenSans-bold: 700;
+
+
+@mixin font-regular{
+  font-family: $font-OpenSans;
+  font-weight: normal;
+}
+
+@mixin font-semi-bold{
+  font-family: $font-OpenSans;
+  font-weight: $font-OpenSans-semi-bold;
+}
+
+@mixin font-bold{
+  font-family: $font-OpenSans;
+  font-weight: $font-OpenSans-bold;
+}
+
+@mixin font-sutil{
+  font-size: 10px;
+  line-height: 16px;
+}
+
+@mixin font-light{
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@mixin font-harmony{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@mixin font-rytm{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin font-see-with-me{
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin font-emphasys{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@mixin font-tenor{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@mixin font-opera{
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.gs-open-sans{ font-family: $font-OpenSans; }
+.gs-open-sans-bold{ font-weight: $font-OpenSans-bold; }
+.gs-open-sans-semi-bold{ font-weight: $font-OpenSans-semi-bold; }
+
+.gs-sutil{ @include font-sutil; }
+.gs-light{ @include font-light; }
+.gs-harmony{ @include font-harmony; }
+.gs-rytm{ @include font-rytm; }
+.gs-see-with-me{ @include font-see-with-me; }
+.gs-emphasys{ @include font-emphasys; }
+.gs-tenor{ @include font-tenor; }
+.gs-opera{ @include font-opera; }

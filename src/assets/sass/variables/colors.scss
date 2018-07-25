@@ -1,0 +1,165 @@
+// Natural Greys
+$black-carbon: #161618;
+$plt-graffiti-carbon: #292E33;
+$plt-graffiti-grey: #585859;
+$plt-plastic-grey: #B1B2B3;
+
+.clr-black-carbon{ color: $black-carbon; }
+.clr-graffiti-carbon{ color: $plt-graffiti-carbon; }
+.clr-graffiti-grey{ color: $plt-graffiti-grey; }
+.clr-plastic-grey{ color: $plt-plastic-grey; }
+
+.bg-black-carbon{ background-color: $black-carbon; }
+.bg-graffiti-carbon{ background-color: $plt-graffiti-carbon; }
+.bg-graffiti-grey{ background-color: $plt-graffiti-grey; }
+.bg-plastic-grey{ background-color: $plt-plastic-grey; }
+
+// Lightness
+$plt-white-platinum: #EAEAEC;
+$plt-white-ice: #F9FAFA;
+$plt-full-light: #FFFFFF;
+
+.clr-white-platinum{ color: $plt-white-platinum; }
+.clr-white-ice{ color: $plt-white-ice; }
+.clr-full-light{ color: $plt-full-light; }
+
+.bg-white-platinum{ background-color: $plt-white-platinum; }
+.bg-white-ice{ background-color: $plt-white-ice; }
+.bg-full-light{ background-color: $plt-full-light; }
+
+// Blues
+$plt-mineral-blue: #0077C5;
+$plt-blue-lamp: #26AAFF;
+$plt-caribbean-salt: #72E3FF;
+
+.clr-mineral-blue{ color: $plt-mineral-blue; }
+.clr-blue-lamp{ color: $plt-blue-lamp; }
+.clr-caribbean-salt{ color: $plt-caribbean-salt; }
+
+.bg-mineral-blue{ background-color: $plt-mineral-blue; }
+.bg-blue-lamp{ background-color: $plt-blue-lamp; }
+.bg-caribbean-salt{ background-color: $plt-caribbean-salt; }
+
+// Purples
+$plt-violet: #4500C4;
+$plt-amethyst: #5C26FF;
+$plt-neon: #9F65FF;
+
+.clr-violet{ color: $plt-violet; }
+.clr-amethyst{ color: $plt-amethyst; }
+.clr-neon{ color: $plt-neon; }
+
+.bg-violet{ background-color: $plt-violet; }
+.bg-amethyst{ background-color: $plt-amethyst; }
+.bg-neon{ background-color: $plt-neon; }
+
+// Reds
+$plt-achiote: #BF0000;
+$plt-pepper-teen: #FF2626;
+$plt-salmon: #FF6759;
+
+.clr-achiote{ color: $plt-achiote; }
+.clr-pepper-teen{ color: $plt-pepper-teen; }
+.clr-salmon{ color: $plt-salmon; }
+
+.bg-achiote{ background-color: $plt-achiote; }
+.bg-pepper-teen{ background-color: $plt-pepper-teen; }
+.bg-salmon{ background-color: $plt-salmon; }
+
+// Oranges
+$plt-red-lead: #C16500;
+$plt-nuclear-orange: #FF9F26;
+$plt-acid: #FFCB59;
+
+.clr-red-lead{ color: $plt-red-lead; }
+.clr-nuclear-orange{ color: $plt-nuclear-orange; }
+.clr-acid{ color: $plt-acid; }
+
+.bg-red-lead{ background-color: $plt-red-lead; }
+.bg-nuclear-orange{ background-color: $plt-nuclear-orange; }
+.bg-acid{ background-color: $plt-acid; }
+
+// Greens
+$plt-nature: #00C07A;
+$plt-vibrant-green: #22E69F;
+$plt-plastic-green: #8DFFD5;
+
+.clr-nature{ color: $plt-nature; }
+.clr-vibrant-green{ color: $plt-vibrant-green; }
+.clr-plastic-green{ color: $plt-plastic-green; }
+
+.bg-nature{ background-color: $plt-nature; }
+.bg-vibrant-green{ background-color: $plt-vibrant-green; }
+.bg-plastic-green{ background-color: $plt-plastic-green; }
+
+// Goldens
+$plt-golden: #D4B400;
+$plt-eletric: #FFDB26;
+$plt-bright: #FFF857;
+
+.clr-golden{ color: $plt-golden; }
+.clr-eletric{ color: $plt-eletric; }
+.clr-bright{ color: $plt-bright; }
+
+.bg-golden{ background-color: $plt-golden; }
+.bg-eletric{ background-color: $plt-eletric; }
+.bg-bright{ background-color: $plt-bright; }
+
+// Gradient
+$plt-sky-from: #26AAFF;
+$plt-sky-to: #72E3FF;
+$plt-summer-from: #FF9918;
+$plt-summer-to: #FFCB59;
+$plt-metal-from: #656567;
+$plt-metal-to: #B1B2B3;
+$plt-furnace-from: #FF1818;
+$plt-furnace-to: #FF6E49;
+$plt-parfum-from: #6532FF;
+$plt-parfum-to: #9F65FF;
+$plt-green-cream-from: #22E69F;
+$plt-green-cream-to: #8DFFD5;
+$plt-sun-from: #FFD918;
+$plt-sun-to: #FFF857;
+
+.bg-sky{ @include linear-gradient($plt-sky-from, $plt-sky-to); }
+.bg-summer{ @include linear-gradient($plt-summer-from, $plt-summer-to); }
+.bg-metal{ @include linear-gradient($plt-metal-from, $plt-metal-to); }
+.bg-furnace{ @include linear-gradient($plt-furnace-from, $plt-furnace-to); }
+.bg-parfum{ @include linear-gradient($plt-parfum-from, $plt-parfum-to); }
+.bg-green-cream{ @include linear-gradient($plt-green-cream-from, $plt-green-cream-to); }
+.bg-sun{ @include linear-gradient($plt-sun-from, $plt-sun-to); }
+
+// Pearl Pigment
+$plt-atmosphere-from: #9F65FF;
+$plt-atmosphere-to: #72E3FF;
+$plt-burn-from: #FF6E49;
+$plt-burn-to: #FFCB59;
+$plt-river-to-sea-from: #9CFF8D;
+$plt-river-to-sea-to: #72E3FF;
+$plt-hot-purple-from: #FFCB59;
+$plt-hot-purple-to: #9F65FF;
+$plt-sun-in-the-sky-from: #FFF857;
+$plt-sun-in-the-sky-to: #72E3FF;
+$plt-inside-the-sun-from: #FFF857;
+$plt-inside-the-sun-to: #FF6E49;
+$plt-sand-oasis-from: #9CFF8D;
+$plt-sand-oasis-to: #FFCB59;
+$plt-green-ray-from: #FFF857;
+$plt-green-ray-to: #9CFF8D;
+$plt-boreal-from: #9F65FF;
+$plt-boreal-to: #8DFFD5;
+$plt-galaxy-light-from: #9F65FF;
+$plt-galaxy-light-to: #FF6E49;
+
+.bg-atmosphere{ @include linear-gradient($plt-atmosphere-from, $plt-atmosphere-to); }
+.bg-burn{ @include linear-gradient($plt-burn-from, $plt-burn-to); }
+.bg-river-to-sea{ @include linear-gradient($plt-river-to-sea-from, $plt-river-to-sea-to); }
+.bg-hot-purple{ @include linear-gradient($plt-hot-purple-from, $plt-hot-purple-to); }
+.bg-sun-in-the-sky{ @include linear-gradient($plt-sun-in-the-sky-from, $plt-sun-in-the-sky-to); }
+.bg-inside-the-sun{ @include linear-gradient($plt-inside-the-sun-from, $plt-inside-the-sun-to); }
+.bg-sand-oasis{ @include linear-gradient($plt-sand-oasis-from, $plt-sand-oasis-to); }
+.bg-green-ray{ @include linear-gradient($plt-green-ray-from, $plt-green-ray-to); }
+.bg-boreal{ @include linear-gradient($plt-boreal-from, $plt-boreal-to); }
+.bg-galaxy-light{ @include linear-gradient($plt-galaxy-light-from, $plt-galaxy-light-to); }
+
+

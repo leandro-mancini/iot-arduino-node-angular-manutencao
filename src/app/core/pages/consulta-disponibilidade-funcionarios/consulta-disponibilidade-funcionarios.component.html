@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-4" *ngFor="let item of orderFuncionarios">
+      <h6>{{item[0].tipo}}</h6>
+      <div class="table-container">
+        <table>
+          <tr>
+            <th>Matrícula</th>
+            <th>Nome</th>
+            <th>Situação</th>
+          </tr>
+          <tr *ngFor="let f of item">
+            <td>{{f.matricula}}</td>
+            <td>{{f.nome}}</td>
+            <td [ngClass]="{ 'disponivel' : f.active }">{{f.active ? 'Disponível' : 'Ausente' }}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

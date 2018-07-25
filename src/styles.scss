@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import "~bootstrap/scss/bootstrap-grid.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+
+@import "assets/sass/_mixins.scss";
+@import "assets/sass/_variables.scss";
+
+@import "assets/sass/app.scss";
