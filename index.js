@@ -13,15 +13,11 @@ io.on('connection', function(socket){
 
 app.use(express.static(path.join(__dirname, 'assets')));
 
-// app.get('/', function(req, res, next){
-//     res.sendFile(__dirname + '/dist/angular6-arduino-node/index.html')
-// });
-
 const SerialPort = require('serialport');
 const Readline = SerialPort.parsers.Readline;
 const parser = new Readline();
 
-const mySerial = new SerialPort('COM4', {
+const mySerial = new SerialPort('COM10', {
     baudRate: 9600
 });
 

@@ -3,6 +3,8 @@ body{
 }
 
 .dados-os{
+  margin-bottom: 50px;
+
   label{
     display: block;
     font-size: 16px;
@@ -70,6 +72,30 @@ body{
     border-radius: 10px;
     position: relative;
 
+    &.execucao{
+      border-color: #3dd216;
+
+      svg{
+        color: #3dd216;
+      }
+
+      .veiculo-status{
+        color: #3dd216;
+      }
+    }
+
+    &.pausado{
+      border-color: #e6da78;
+
+      svg{
+        color: #e6da78;
+      }
+
+      .veiculo-status{
+        color: #e6da78;
+      }
+    }
+
     svg{
       color: #fff;
       padding: 40px;
@@ -91,7 +117,7 @@ body{
 
     &.veiculo-atrasado{
       box-shadow: 0 0 0 8px rgba(244, 100, 100, 0.01), 0 0 0 4px rgba(244, 100, 100, 0.08);
-      background: #f46464;
+      background: #a0f58a;
       background: linear-gradient(135deg, #f46464 0%, #d65757 100%);
     }
   }

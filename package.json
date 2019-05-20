@@ -34,11 +34,14 @@
     "lodash": "^4.17.10",
     "ngx-globus-style": "0.0.8",
     "ngx-socket-io": "^1.1.1",
+    "node-rfid": "^1.0.7",
+    "node-sass": "^4.12.0",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.2.2",
     "serialport": "^6.2.1",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1",
+    "sys": "0.0.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
