@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatTabChangeEvent } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  selectedIndex = 0;
+
+  selectedTabChange(evt: MatTabChangeEvent) {
+    console.log(evt.index);
+
+    this.selectedIndex = evt.index;
+  }
 }
